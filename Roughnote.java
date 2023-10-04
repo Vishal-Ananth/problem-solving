@@ -1,9 +1,14 @@
-import java.util.Arrays;
-import java.util.HashMap;
+import java.util.*;
 
 public class Roughnote {
     public static void main(String[] args) {
-        String a ="11",b="1";
-        
+        ArrayList<Integer> list = new ArrayList<>();
+        int[] nums ={1,2,3,1,4};
+        for(int i:nums){
+            if(!list.contains(i)){
+                list.add(i);
+            }
+        }
+        System.out.println(list);
     }
 }
