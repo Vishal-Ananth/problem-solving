@@ -1,3 +1,5 @@
+package src;
+
 public class RemoveDuplicatesFromSortedList {
     // Definition for singly-linked list.
     public class ListNode {
